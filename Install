@@ -1,0 +1,6 @@
+how to inatall:
+1. gather all files into one folder
+2.setup samba share
+3. open "\\server_ip\addons" in file explorer 
+4. paste new folder in there
+5. restart ha and install the new local addon
