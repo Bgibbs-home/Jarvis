@@ -1,0 +1,17 @@
+{
+  "name": "J.A.R.V.I.S. Assistant",
+  "version": "1.0",
+  "slug": "jarvis_assistant",
+  "description": "A simple voice command assistant for Home Assistant",
+  "arch": ["amd64", "armv7", "armhf", "aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "token": "",
+    "homeassistant_url": "http://supervisor/core/api"
+  },
+  "schema": {
+    "token": "str",
+    "homeassistant_url": "str"
+  }
+}
